@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="20286BartoszZaremba.Kkoiiks" Publisher="CN=457CB55B-879D-4A3B-A7B5-3F74D881E533" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Kółko i iks</DisplayName>
+    <PublisherDisplayName>Bartosz Zaremba</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="KolkoKrzyzyk.App">
+      <VisualElements DisplayName="Kółko i iks" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Kołko i iks jest idealną grą dla dwojga." ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" ShortName="Kółko i iks" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#1e2a1f" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
