@@ -1,0 +1,60 @@
+﻿body {
+   
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+    .mainWindows {
+    display:-ms-grid;
+    -ms-grid-columns: 300px 100px;
+    -ms-grid-rows: 50px 300px 100px;
+    }
+
+    #field {
+        display: -ms-grid;
+        -ms-grid-columns: 100px 100px 100px 100px;
+        -ms-grid-rows: 75px 75px 75px 75px 75px 75px;
+    }
+
+    button {
+        border:none;
+    }
+    #btn0 {
+        width:300px;
+    }
+    #txtScreen {
+        width:300px;
+    }
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+    #field {
+        
+        display: -ms-grid;
+        -ms-grid-columns: 70px 70px 70px 70px;
+        -ms-grid-rows: 75px 75px 75px 75px 75px 75px;
+    }
+    button {
+        border:none;
+        width:25px;
+    }
+    .mainWindows {
+    display:-ms-grid;
+    -ms-grid-columns: 200px 100px;
+    -ms-grid-rows: 50px 300px 100px;
+    }
+    #btn0 {
+        width:218px;
+    }
+    #txtAddScreen {
+        width:200px;
+    }
+    #txtScreen {
+        width:200px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="20286BartoszZaremba.Kalkulatordladzieci" Version="1.0.0.5" Publisher="CN=457CB55B-879D-4A3B-A7B5-3F74D881E533" />
+  <Properties>
+    <DisplayName>Kalkulator dla dzieci</DisplayName>
+    <PublisherDisplayName>Bartosz Zaremba</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Kalkulator dla dzieci" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Kalkulator dla dzieci" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" ShortName="Kalkulator dziecięcy" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="#FFFFFF" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

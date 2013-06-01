@@ -1,0 +1,52 @@
+﻿     <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>KalkulatorJavascript</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- KalkulatorJavascript references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/calc.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <!---ms-flex-direction: column;-->
+    <div style="border:solid;height:100%;display: -ms-flexbox;-ms-flex-align: center;-ms-flex-pack: center;"> 
+        <div class="mainWindows"  >
+            <div style="display:-ms-flexbox">
+                <input type="text" disabled="disabled" id="txtScreen" 
+                    style="font-family:Calibri;background-color:white;color:black;font-size: x-large;-ms-grid-row:1" dir="rtl"
+                    data-win-bind="innerText:screen"></input>
+                <button style ="margin:5px" id="btnPlusDel">DEL</button>
+            </div>
+            <div id="field"> 
+                <input type="text" size="10" disabled="disabled" name="name" id="txtAddScreen" data-win-bind="innerText:screen" style="-ms-grid-column: 1; -ms-grid-row: 2" /> 
+                <button id="btnDevide"  style="-ms-grid-column:4;-ms-grid-row:2;background-color:beige;border:solid;border-color:gray">\</button>
+
+                <button  id="btn7" style="-ms-grid-column:1;-ms-grid-row:3;background-color:orange">7</button>
+                <button id="btn8" style="-ms-grid-column:2;-ms-grid-row:3;background-color:brown">8</button>
+                <button id="btn9" style="-ms-grid-column:3;-ms-grid-row:3;background-color:lime">9</button>
+                <button id="btnTime"  style="-ms-grid-column:4;-ms-grid-row:3;background-color:beige;border:solid;border-color:gray">x</button>
+                
+                <button id="btn4" style="-ms-grid-column:1;-ms-grid-row:4;background-color:violet">4</button>
+                <button id="btn5" style="-ms-grid-column:2;-ms-grid-row:4;background-color:pink">5</button>
+                <button id="btn6" style="-ms-grid-column:3;-ms-grid-row:4;background-color:green">6</button>
+                <button id="btnMinus" style="-ms-grid-column:4;-ms-grid-row:4;background-color:beige;border:solid;border-color:gray">-</button>
+            
+                <button id="btn1"  style="-ms-grid-column:1;-ms-grid-row:5;background-color:red">1</button>
+                <button id="btn2"  style="-ms-grid-column:2;-ms-grid-row:5;background-color:blue">2</button>
+                <button id="btn3" style="-ms-grid-column:3;-ms-grid-row:5;background-color:yellow">3</button>
+                <button id="btnPlus" style="-ms-grid-column:4;-ms-grid-row:5;background-color:beige;border:solid;border-color:gray">+</button>
+            
+                <button  id="btn0" style="-ms-grid-column:1;-ms-grid-row:6;background-color:white;border:solid;border-color:gray">0</button>
+                <button id="btnIs" style="-ms-grid-column:4;-ms-grid-row:6;background-color:beige;border:solid;border-color:gray">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
