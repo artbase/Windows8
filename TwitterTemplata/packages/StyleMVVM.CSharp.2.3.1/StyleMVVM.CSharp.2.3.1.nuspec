@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>StyleMVVM.CSharp</id>
+    <version>2.3.1</version>
+    <title>StyleMVVM.CSharp</title>
+    <authors>Ian Johnson</authors>
+    <owners>Ian Johnson</owners>
+    <licenseUrl>https://stylemvvm.codeplex.com/license</licenseUrl>
+    <projectUrl>https://stylemvvm.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>StyleMVVM.CSharp is an adjunct to StyleMMVM for C# development (Windows Store App only)</description>
+    <summary>This is the C# adjunct assembly to StyleMVVM, it conatins all generic classes, all inheritable classes, and all CSharp generic extensions.</summary>
+    <releaseNotes>This is minor bug fixes and performance changes release, covering the following areas DepenencyInjection (WPF), Regions, Validation, and Conventions.</releaseNotes>
+    <copyright>Copyright 2013 Ian Johnson</copyright>
+    <language>en-US</language>
+    <tags>mvvm Metro winrt win8 C#</tags>
+    <dependencies>
+      <dependency id="StyleMVVM" version="2.3.1" />
+    </dependencies>
+  </metadata>
+</package>
