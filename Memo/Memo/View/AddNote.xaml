@@ -1,0 +1,24 @@
+﻿<View:CharmControl
+    x:Class="Memo.View.AddNote"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Memo.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:View="using:StyleMVVM.View"
+    View:ViewModel.Name="AddNoteModel"
+    mc:Ignorable="d"
+    d:DesignWidth="400" HeaderContent="Dodaj notke" HeaderBackground="#FF281C12" Height="812.3"
+     >
+    <Grid Background="#FFFBF37B">
+        <StackPanel Margin="20">
+            <TextBlock Text="Tytuł"/>
+            <TextBox Name="Title" />
+
+            <TextBlock Text="Treść"/>
+            <TextBox Name="Desc" Height="400" TextWrapping="Wrap" AcceptsReturn="True" />
+            <Button Content="Dodaj notke" Click="Button_Click" Foreground="Black" BorderBrush="Black" />
+        </StackPanel>
+
+    </Grid>
+</View:CharmControl>

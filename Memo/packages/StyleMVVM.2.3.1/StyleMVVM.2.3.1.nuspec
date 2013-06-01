@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>StyleMVVM</id>
+    <version>2.3.1</version>
+    <title>StyleMVVM</title>
+    <authors>Ian Johnson</authors>
+    <owners>Ian Johnson</owners>
+    <licenseUrl>https://stylemvvm.codeplex.com/license</licenseUrl>
+    <projectUrl>https://stylemvvm.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>StyleMVVM is a full featured MVVM framework designed from the ground up for the Windows Store platform (C#, C++ and HTML/JS supported). StyleMVVM has now been ported to Windows Phone 8 and WPF (.Net 4.5).</description>
+    <summary>This is the WinRT component of StyleMVVM, it can be used in C#, C++ and HTML/JS project types.</summary>
+    <releaseNotes>This is minor bug fixes and performance changes release, covering the following areas DepenencyInjection (WPF), Regions, Validation, and Conventions.</releaseNotes>
+    <copyright>Copyright 2013 Ian Johnson</copyright>
+    <language>en-US</language>
+    <tags>mvvm Metro winrt win8 winmd C# C++/CX HTML/JS .Net WPF WindowsPhone8</tags>
+  </metadata>
+</package>
