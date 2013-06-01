@@ -1,0 +1,51 @@
+﻿<View:CharmControl
+    x:Class="WalutyTemplate.Settings_Charm1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WalutyTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:View="using:StyleMVVM.View"
+    View:ViewModel.Name="Settings_Charm1Model"
+    mc:Ignorable="d"
+    d:DesignWidth="400" HeaderContent="Polityka prywatności" Height="1835.65">
+    <Grid Margin="10">
+        <RichTextBlock TextWrapping="Wrap" FontFamily="Segoe UI" FontWeight="Light" FontSize="18" Foreground="Black" >
+            <Paragraph>
+                <Bold>Polityka prywatności
+                </Bold>
+                <LineBreak/>
+                <LineBreak/>
+                <Bold>1. Dane zbierane automatycznie</Bold>
+                <LineBreak/>
+                Aplikacja nie zbiera i przechowuje żadnych danych bez wiedzy użytkownika.
+                <LineBreak/>
+
+                <Bold>2. Zebrane dane
+                </Bold>
+                <LineBreak/>
+                Żadne ze zebranych danych nie są transferowane i udostępniane do firm trzecich.
+                <LineBreak/>
+
+                <Bold>3. Kontakt
+                </Bold>
+                <LineBreak/>
+                Jeżeli zadałeś nam pytanie, odpowiemy Ci na nie poprzez maila, telefon lub inne środki komunikacji, które zostały podane.
+                <LineBreak/>
+
+                <Bold>4. Zgoda
+                </Bold>
+                <LineBreak/>
+                Akceptując Regulamin, który zawiera tę politykę wyrażasz zgodę na tę politykę prywatności. Następnie, w toku stosowania tej aplikacji oznacza to Twoją zgodę na warunki tej polityki prywatności.
+                <LineBreak/>
+
+                <Bold>5. Kontakt
+                </Bold>
+                <LineBreak/>
+                Kontakt do autora: Bart bartosz.zaremba@outlook.com
+                <LineBreak/>
+                Jeżeli masz wątpliwości co do polityki prywatności skontaktuj się z nami poprzez podany wyżej adres email.
+            </Paragraph>
+        </RichTextBlock>
+    </Grid>
+</View:CharmControl>
