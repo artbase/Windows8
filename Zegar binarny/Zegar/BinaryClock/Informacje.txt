@@ -1,0 +1,3 @@
+BinaryClock to nietypowy zegar, pokazuj¹cy godzinê w wersji binarnej. Mo¿e byæ ciekaw¹ alternatyw¹ dla standardowego i nudnego zegarka.
+
+Ikony u¿yte w aplikacji zosta³y pobrane z materia³ów wymienionych w kursie na eduweb.pl i znajduj¹ siê w folderze "Ikonki"
